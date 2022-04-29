@@ -4,7 +4,12 @@
 
 Console.Write("Введи трехзначное число ");
 int N = int.Parse(Console.ReadLine());
-double ostatok = N%10;
+double lastnumber = N%10;
+
+  if(lastnumber<0)
+    {
+         lastnumber=-lastnumber;
+    }
  
-Console.WriteLine("Последняя цифра числа " + ostatok);
+Console.WriteLine("Последняя цифра числа " + lastnumber);
 
