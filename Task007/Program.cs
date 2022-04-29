@@ -4,7 +4,7 @@
 
 Console.Write("Введи трехзначное число ");
 int N = int.Parse(Console.ReadLine());
-double full = N%10;
+double ostatok = N%10;
  
-Console.WriteLine("Последняя цифра числа " + full);
+Console.WriteLine("Последняя цифра числа " + ostatok);
 
